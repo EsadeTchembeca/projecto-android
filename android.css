@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'android';
+    src: url('../projeto-android/fontes/idroid.otf');
+}
+body{
+    background-color: #83e1ad ;
+}
+header{
+    background-image: linear-gradient(to bottom, #3ddc84, #063d1e );
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+#tema_principal{
+    color: white;
+    text-shadow: 4px 4px 0px  rgba(0, 0, 0, 0.493);
+}
+#sub-tema{
+    color: rgba(255, 255, 255, 0.698);
+    width: 500px;
+    margin: auto;
+    width: 100%;
+}
+nav > a{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px; 
+    text-decoration: none; 
+}
+nav{
+    background-color: #063d1e;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 30px;
+}
+a:hover{
+    color: #063d1e;
+    background-color: aliceblue;
+    transition-duration: .8s;
+}
+#androidmain{
+    max-width: 60em;
+    min-width: 0em;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 1em;
+    border-radius: 15px;
+}
+#tema{
+    text-align: center;
+    font-family: 'android','Trebuchet MS' , 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-image: linear-gradient(90deg, #c5ebd6, white);
+
+}
+
+iframe{
+    width: 100%;
+}
+#robozinhos{
+    width: 100%;
+}
+
+#irina{
+  width: 100%;
+}
+
+
+.cor{
+    color: #e1c383;
+}
+aside{
+    background-color: rgb(1, 128, 50);
+    color: #c0c8c2;
+    padding: 1px 15px 0px 15px;
+    border-radius: 10px;
+}
+article{
+    background-color: black;
+    color: aliceblue;
+    padding: 1px 20px 1px 20px;
+    border-radius: 10px;
+}
+#android{
+    display: block;
+    width: 350px;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    background-color: rgb(141, 131, 107);
+    width: 100%;}
+    #homemain{
+        max-width: 60em;
+        min-width: 0em;
+        margin: auto;
+        background-color: whitesmoke;
+        padding: 1em;
+        border-radius: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       
+    }
+    #homemain > h1{
+        color: #063d1e;
+        text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.507);
+        background-color: #83e1ad;
+        font-size: 2em;
+        padding: 5px 0px 5px 15px;
+        border-radius: 10px 0px 0px 10px;
+        text-align: center;
+    }
