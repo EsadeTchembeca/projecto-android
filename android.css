@@ -108,3 +108,10 @@ footer{
         border-radius: 10px 0px 0px 10px;
         text-align: center;
     }
+     @media (max-width: 500px) {
+        nav  a {
+        font-size: 10px;
+        padding-left: 10px;
+    padding-right: 10px;
+        }
+    } 
